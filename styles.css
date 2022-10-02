@@ -1,5 +1,56 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+:root {
+  --light-blue: hsl(205, 100%, 96%);
+  --dark-blue: hsl(209, 61%, 16%);
+  --medium-blue: #49a6e9;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light-blue);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.title-container {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.lorem-form {
+    display: flex;
+    gap: 10px;
+}
+
+.lorem-form > input {
+  width: 50px;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.btn {
+    background-color: var(--medium-blue);
+    border: none;
+    border-radius: 7px;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
