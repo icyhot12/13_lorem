@@ -54,3 +54,8 @@ label {
     letter-spacing: 1px;
     font-weight: 600;
 }
+
+.lorem-text {
+    width: 60vw;
+    text-align: center;
+}
